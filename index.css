@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-light: #fff;
+  --primary-black: #3c3c3c;
+  --secondary-black: #636363;
+  --primary-color: #ff8d00;
+  --secondary-color: rgb(255, 238, 0);
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: clamp(1rem, 6vw, 1rem);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2 {
+  font-size: 1.7em;
+  text-transform: capitalize;
+  color: var(--primary-black);
+  text-align: center;
+  margin: 0 auto 0.7em auto;
+  padding: 0;
+}
+
+p {
+  color: var(--secondary-black);
+  text-align: left;
+  margin: 1em 0;
+  line-height: 180%;
+}
+
+h2 {
+  color: var(--primary-black);
+  text-align: center;
+  padding-top: 0em;
+}
+
+.container {
+  padding: 1.3em 2em;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.btn {
+  color: var(--primary-light);
+  display: inline-block;
+  background: var(--primary-black);
+  padding: 0.3em 1.3em;
+  margin-bottom: 2em;
+}
+
+/* navbar section  */
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  gap: 2em;
+}
+
+/* hero section  */
+.hero {
+  background: var(--primary-color);
+}
+.hero-content {
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3.9em;
+  text-transform: capitalize;
+  margin: 0 0 0.3em 0;
+  text-align: left;
+  line-height: 120%;
+}
+.hero-title span {
+  color: var(--primary-light);
+}
+.hero-p {
+  margin-top: 0;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+/* work section  */
+.card-title {
+  margin-top: 1.5em;
+  padding: 0;
+  font-size: 1.3em;
+}
+
+.card-subtitle {
+  margin: 0 0 1.2em 0;
+}
+
+.card-description {
+  text-align: justify;
+  margin-bottom: 1.4em;
+}
+
+.card-btn-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.7em;
+}
+
+.work-card .btn {
+  margin-bottom: 0.5em;
+}
+
+/* feature section  */
+.feature > .container {
+  padding: 0;
+}
+.feature-right {
+  background-color: var(--primary-color);
+}
+
+.feature-left {
+  background-color: var(--secondary-color);
+}
+
+.feature-content {
+  margin: 0 auto;
+}
+
+.feature-title {
+  font-size: 3.9em;
+  text-transform: capitalize;
+  margin: 0 0 0.3em 0;
+  text-align: left;
+  line-height: 120%;
+}
+.feature-title span {
+  color: var(--primary-light);
+}
+.feature-p {
+  margin-top: 0;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+/* contact section  */
+.email {
+  text-decoration: underline;
+  color: var(--primary-black);
+}
+.contact-cols {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-link {
+  width: 7em;
+  text-align: center;
+  padding: 1em;
+  color: var(--primary-black);
+  text-decoration: underline;
+}
+
+/* footer section  */
+
+footer {
+  border-top: solid 0.1em var(--primary-black);
+}
+.footer-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-col:nth-child(2) {
+  justify-self: end;
+}
+
+.footer-col {
+  margin-top: 1em;
+}
+
+.copyright {
+  grid-column: 1/3;
+}
+
+.copyright-p {
+  text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .body {
+    font-size: 1.2rem;
+  }
+  /* hero section  */
+  .hero .container {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+  }
+  /* work section */
+  .work-cols {
+    display: flex;
+    gap: 2em;
+  }
+  .card-description {
+    text-align: left;
+  }
+  /* feature section */
+  .feature {
+    background-color: var(--primary-color);
+    position: relative;
+  }
+  .feature > .container {
+    display: flex;
+    align-items: center;
+  }
+  .feature-right {
+    order: 2;
+  }
+  .feature-left {
+    order: 1;
+    position: relative;
+    flex-grow: 1;
+  }
+  .feature::before {
+    content: '';
+    background: var(--secondary-color);
+    position: absolute;
+    height: 100%;
+    width: 42%;
+    top: 0;
+    left: 0;
+  }
+
+  /* contact section  */
+  .contact-p {
+    text-align: center;
+  }
+  .contact-cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* footer section  */
+
+  .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    justify-items: center;
+  }
+
+  .footer-col:nth-child(2) {
+    justify-self: unset;
+  }
+
+  .copyright {
+    grid-column: 3/4;
+  }
+
+  .copyright-p {
+    text-align: left;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1265px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
