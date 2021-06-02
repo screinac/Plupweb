@@ -103,6 +103,7 @@ header .container {
   margin-top: 0;
   margin-bottom: 2em;
   text-align: left;
+  max-width: 500px;
 }
 
 /* work section  */
@@ -161,6 +162,7 @@ header .container {
   margin-top: 0;
   margin-bottom: 2em;
   text-align: left;
+  max-width: 500px;
 }
 
 /* contact section  */
@@ -228,29 +230,36 @@ footer {
   }
   /* feature section */
   .feature {
+    display: grid;
+    grid-template-columns: 1fr minmax(1em, 800px) minmax(1em, 800px) 1fr;
     background-color: var(--primary-color);
-    position: relative;
-  }
-  .feature > .container {
-    display: flex;
+    grid-template-areas: 'a b c d';
     align-items: center;
   }
-  .feature-right {
-    order: 2;
-  }
-  .feature-left {
-    order: 1;
-    position: relative;
-    flex-grow: 1;
-  }
-  .feature::before {
-    content: '';
-    background: var(--secondary-color);
-    position: absolute;
+  .feature-margin-left {
+    grid-area: a;
     height: 100%;
-    width: 42%;
-    top: 0;
-    left: 0;
+    background: var(--secondary-color);
+  }
+
+  .feature-left {
+    grid-area: b;
+  }
+  .feature-left .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .feature-right {
+    grid-area: c;
+  }
+  .feature-right .container {
+    display: flex;
+    justify-content: start;
+  }
+  .feature-margin-right {
+    grid-area: d;
+    height: 100%;
   }
 
   /* contact section  */
@@ -284,7 +293,9 @@ footer {
 }
 
 @media only screen and (min-width: 1265px) {
-  body {
-    font-size: 1.2rem;
+  /* contact section  */
+
+  .contact-link {
+    width: 9em;
   }
 }
