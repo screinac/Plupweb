@@ -10,10 +10,10 @@
 
 :root {
   --primary-light: #fff;
-  --primary-black: #3c3c3c;
-  --secondary-black: #636363;
-  --primary-color: #ff8d00;
-  --secondary-color: rgb(255, 238, 0);
+  --primary-black: #151515;
+  --secondary-black: #282828;
+  --primary-color: #f36b1c;
+  --secondary-color: #f8d605;
 }
 
 img {
