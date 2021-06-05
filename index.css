@@ -14,6 +14,10 @@
   --secondary-black: #282828;
   --primary-color: #f36b1c;
   --secondary-color: #f8d605;
+  --clr-blue-500: #042c71;
+  --clr-blue-400: #084387;
+  --clr-blue-300: #0b6ab0;
+  --clr-orange-500: #ce4912;
 }
 
 img {
