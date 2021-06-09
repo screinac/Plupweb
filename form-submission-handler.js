@@ -1,4 +1,12 @@
 ;(function () {
+  //set loader button
+  function loading() {
+    const btnTxt = document.querySelector('.btn-txt')
+    const loadingIcon = document.querySelector('.lds-facebook')
+    btnTxt.style.display = 'none'
+    loadingIcon.style.display = 'unset'
+  }
+
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements
@@ -71,6 +79,7 @@
     }
 
     disableAllButtons(form)
+    loading()
     var url = form.action
     var xhr = new XMLHttpRequest()
     xhr.open('POST', url)
