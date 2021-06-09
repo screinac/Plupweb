@@ -31,6 +31,12 @@
       // singular form elements just have one value
       formData[name] = element.value
 
+      if (element.type === 'checkbox') {
+        if (element.checked) formData[name] = element.value
+        // Si no se marca alguna casilla de checkbox regresará por defecto el valor 'no'
+        else formData[name] = 'No'
+      }
+
       // when our element has multiple items, get their values
       if (element.length) {
         var data = []

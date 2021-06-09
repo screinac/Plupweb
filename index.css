@@ -186,6 +186,25 @@ header .container {
   padding: 1em;
   color: var(--primary-black);
   text-decoration: underline;
+  border: 1px solid var(--primary-black);
+}
+
+/* form section */
+
+.honeypot-field {
+  display: none;
+}
+
+fieldset {
+  border: none;
+}
+
+.form-label {
+  display: block;
+}
+
+.checkbox-label {
+  display: unset;
 }
 
 /* footer section  */
