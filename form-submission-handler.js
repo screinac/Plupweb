@@ -88,9 +88,17 @@
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4 && xhr.status === 200) {
         form.reset()
-        var formElements = form.querySelector('.form-elements')
-        if (formElements) {
-          formElements.style.display = 'none' // hide form
+        var formBtn = form.querySelector('.cta')
+        const btnTxt = document.querySelector('.btn-txt')
+        const loadingIcon = document.querySelector('.lds-facebook')
+
+        if (formBtn) {
+          formBtn.style.background = '#5cb85c'
+          formBtn.style.cursor = 'default'
+          formBtn.style.marginBottom = '0'
+          loadingIcon.style.display = 'none'
+          btnTxt.style.display = 'unset'
+          btnTxt.innerHTML = 'Enviado'
         }
         var thankYouMessage = form.querySelector('.thankyou_message')
         if (thankYouMessage) {
