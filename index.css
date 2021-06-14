@@ -25,6 +25,10 @@ img {
   max-width: 600px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins';
   font-size: clamp(1rem, 6vw, 1rem);
@@ -128,6 +132,9 @@ header .container {
 .nav-list {
   display: flex;
   gap: 2em;
+}
+.logo {
+  width: 8em;
 }
 
 /* hero section  */
@@ -376,6 +383,12 @@ footer {
 
 .footer-col {
   margin-top: 1em;
+}
+.footer-item {
+  margin-bottom: 0.3em;
+}
+.footer-title {
+  margin-bottom: 0.4em;
 }
 
 .copyright {

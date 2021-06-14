@@ -25,9 +25,12 @@ img {
   max-width: 600px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins';
-  font-size: clamp(1rem, 6vw, 1rem);
 }
 
 a {
@@ -88,7 +91,9 @@ header .container {
   display: flex;
   gap: 2em;
 }
-
+.logo {
+  width: 8em;
+}
 /* inciar section */
 .iniciar-col-content {
   max-width: 500px;
@@ -141,6 +146,13 @@ footer {
 
 .footer-col {
   margin-top: 1em;
+}
+
+.footer-item {
+  margin-bottom: 0.3em;
+}
+.footer-title {
+  margin-bottom: 0.4em;
 }
 
 .copyright {
@@ -216,7 +228,4 @@ footer {
 }
 
 @media only screen and (min-width: 1265px) {
-  body {
-    font-size: 1.2em;
-  }
 }
