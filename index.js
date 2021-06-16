@@ -1,14 +1,14 @@
-const exitBtn = document.querySelector('.exit-btn')
 const menuBtn = document.querySelector('.menu-btn')
-const nav = document.querySelector('.nav')
+const navMenu = document.querySelector('.nav-menu')
 
 menuBtn.addEventListener('click', () => {
-  nav.style.transform = 'translateX(0)'
+  if (navMenu.style.display === 'block') {
+    navMenu.style.display = 'none'
+  } else navMenu.style.display = 'block'
 })
 
-exitBtn.addEventListener('click', () => {
-  nav.style.transform = 'translateX(100%)'
+document.addEventListener('mouseup', (event) => {
+  if (navMenu.style.display === 'block') {
+    if (!menuBtn.contains(event.target)) navMenu.style.display = 'none'
+  }
 })
-
-var d = new Date()
-page.currentYear = d.getFullYear()

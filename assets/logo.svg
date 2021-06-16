@@ -3,8 +3,8 @@
 
 <svg
    width="54mm"
-   height="12mm"
-   viewBox="0 0 54 12"
+   height="15mm"
+   viewBox="0 0 54 15"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
@@ -23,150 +23,24 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="96.431688"
-     inkscape:cy="25.013903"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="82.908271"
+     inkscape:cy="12.904699"
      inkscape:window-width="1304"
      inkscape:window-height="704"
      inkscape:window-x="62"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g90945"
+     inkscape:current-layer="layer1"
      width="211mm"
-     units="mm" />
+     units="mm"
+     height="15mm" />
   <defs
      id="defs2" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';word-spacing:0px;stroke-width:0.264583"
-       x="-23.168705"
-       y="-34.906509"
-       id="text8287"><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="-23.168705"
-         y="-34.906509"
-         id="tspan8289">PLUPWEB</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';word-spacing:0px;stroke-width:0.264583"
-       x="-22.731443"
-       y="-9.636179"
-       id="text17473"><tspan
-         sodipodi:role="line"
-         id="tspan17471"
-         style="stroke-width:0.264583"
-         x="-22.731443"
-         y="-9.636179">PlupWeb</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';word-spacing:0px;stroke-width:0.264583"
-       x="111.89877"
-       y="-100.39683"
-       id="text24971"><tspan
-         sodipodi:role="line"
-         id="tspan24969"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="-100.39683">Código,</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="-87.167702"
-         id="tspan24973">programación</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="-73.938576"
-         id="tspan29033">páginas web</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="-60.709454"
-         id="tspan31075">calidad</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="-47.480331"
-         id="tspan31077">tecnología</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="-34.251205"
-         id="tspan31079">innovación</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="-21.022079"
-         id="tspan31081">economico</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="-7.7929559"
-         id="tspan31085">amigable</tspan><tspan
-         sodipodi:role="line"
-         style="stroke-width:0.264583"
-         x="111.89877"
-         y="5.4361687"
-         id="tspan24975" /></text>
-    <g
-       id="g90939">
-      <g
-         aria-label="Plupweb"
-         id="g57701"
-         style="font-size:10.5833px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';word-spacing:0px;stroke-width:0.264583"
-         transform="matrix(1,0,0,0.99997165,5.2434457,-54.948841)">
-        <path
-           d="m 33.904626,12.822621 q 0,0.920747 -0.634998,1.534579 -0.624415,0.603248 -1.915577,0.603248 h -1.418163 v 3.07974 h -0.96308 v -7.37656 h 2.381243 q 1.248829,0 1.89441,0.603248 0.656165,0.603248 0.656165,1.555745 z M 31.354051,14.1667 q 0.80433,0 1.185329,-0.349249 0.380999,-0.349249 0.380999,-0.99483 0,-1.365246 -1.566328,-1.365246 H 29.935888 V 14.1667 Z"
-           id="path57687" />
-        <path
-           d="m 36.063604,10.208546 v 7.831642 h -0.963081 v -7.831642 z"
-           id="path57689" />
-        <path
-           d="m 42.847482,12.24054 v 5.799648 h -0.963081 v -0.857247 q -0.275165,0.444498 -0.772581,0.698497 -0.486831,0.243416 -1.079496,0.243416 -0.677331,0 -1.21708,-0.275166 -0.539748,-0.285749 -0.857247,-0.846664 -0.306916,-0.560914 -0.306916,-1.365245 V 12.24054 h 0.952497 v 3.270239 q 0,0.857247 0.433916,1.322913 0.433915,0.455082 1.185329,0.455082 0.772581,0 1.21708,-0.476249 0.444498,-0.476248 0.444498,-1.386412 V 12.24054 Z"
-           id="path57691" />
-        <path
-           d="m 45.440384,13.309453 q 0.285749,-0.497415 0.846664,-0.825497 0.571498,-0.338666 1.322913,-0.338666 0.77258,0 1.396995,0.370415 0.634998,0.370416 0.99483,1.047747 0.359832,0.666748 0.359832,1.555745 0,0.878414 -0.359832,1.566328 -0.359832,0.687915 -0.99483,1.068914 -0.624415,0.380999 -1.396995,0.380999 -0.740831,0 -1.31233,-0.328083 -0.560915,-0.338665 -0.857247,-0.83608 v 3.820571 h -0.96308 V 12.24054 h 0.96308 z m 3.936988,1.809744 q 0,-0.656164 -0.264583,-1.142996 -0.264582,-0.486832 -0.719664,-0.740831 -0.444499,-0.253999 -0.984247,-0.253999 -0.529165,0 -0.984247,0.264582 -0.444499,0.253999 -0.719664,0.751414 -0.264583,0.486832 -0.264583,1.132413 0,0.656165 0.264583,1.15358 0.275165,0.486832 0.719664,0.751414 0.455082,0.254 0.984247,0.254 0.539748,0 0.984247,-0.254 0.455082,-0.264582 0.719664,-0.751414 0.264583,-0.497415 0.264583,-1.164163 z"
-           id="path57693" />
-        <path
-           d="m 59.357409,12.24054 -1.809744,5.799648 h -0.99483 l -1.396996,-3.104253 -1.396995,3.104253 h -0.99483 L 50.943686,12.24054 h 0.984247 l 1.333496,4.868317 1.439329,-3.368834 h 0.984246 l 1.407579,3.379418 1.312329,-4.878901 z"
-           id="path57695"
-           sodipodi:nodetypes="cccccccccccccc" />
-        <path
-           d="m 65.601553,14.918114 q 0,0.275166 -0.03175,0.582082 h -4.635485 q 0.05292,0.857247 0.582082,1.344079 0.539748,0.476248 1.301745,0.476248 0.624415,0 1.037164,-0.285749 0.423332,-0.296332 0.592665,-0.783164 h 1.037163 q -0.232833,0.836081 -0.93133,1.365246 -0.698498,0.518582 -1.735662,0.518582 -0.825497,0 -1.481661,-0.370416 -0.645582,-0.370415 -1.015997,-1.047747 -0.370416,-0.687914 -0.370416,-1.587495 0,-0.89958 0.359832,-1.576911 0.359833,-0.677331 1.005414,-1.037164 0.656165,-0.370415 1.502828,-0.370415 0.825498,0 1.460496,0.359832 0.634998,0.359832 0.973663,0.99483 0.349249,0.624415 0.349249,1.418162 z m -0.99483,-0.201082 q 0,-0.550332 -0.243416,-0.941914 -0.243416,-0.402165 -0.666748,-0.603248 -0.412748,-0.211666 -0.920747,-0.211666 -0.730247,0 -1.248829,0.465665 -0.507998,0.465665 -0.582082,1.291163 z"
-           id="path57697" />
-        <path
-           d="m 67.834616,13.320036 q 0.296332,-0.518581 0.86783,-0.846664 0.571499,-0.328082 1.301746,-0.328082 0.783164,0 1.407579,0.370415 0.624415,0.370416 0.984247,1.047747 0.359832,0.666748 0.359832,1.555745 0,0.878414 -0.359832,1.566328 -0.359832,0.687915 -0.99483,1.068914 -0.624415,0.380999 -1.396996,0.380999 -0.751414,0 -1.322912,-0.328083 -0.560915,-0.328082 -0.846664,-0.83608 v 1.068913 h -0.96308 v -7.831642 h 0.96308 z m 3.936987,1.799161 q 0,-0.656164 -0.264582,-1.142996 -0.264583,-0.486832 -0.719665,-0.740831 -0.444498,-0.253999 -0.984246,-0.253999 -0.529165,0 -0.984247,0.264582 -0.444499,0.253999 -0.719665,0.751414 -0.264582,0.486832 -0.264582,1.132413 0,0.656165 0.264582,1.15358 0.275166,0.486832 0.719665,0.751414 0.455082,0.254 0.984247,0.254 0.539748,0 0.984246,-0.254 0.455082,-0.264582 0.719665,-0.751414 0.264582,-0.497415 0.264582,-1.164163 z"
-           id="path57699" />
-      </g>
-      <circle
-         style="fill:#000000;stroke-width:1.4;paint-order:markers stroke fill"
-         id="circle57703"
-         cx="58.733673"
-         cy="-43.648445"
-         r="0.62427342" />
-      <circle
-         style="fill:#000000;stroke-width:1.4;paint-order:markers stroke fill"
-         id="circle57705"
-         cx="61.784924"
-         cy="-43.729549"
-         r="0.62427342" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:10.5833px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';word-spacing:0px;stroke-width:0.264583"
-       x="-22.948025"
-       y="-23.14596"
-       id="text60979"><tspan
-         sodipodi:role="line"
-         id="tspan60977"
-         style="stroke-width:0.264583"
-         x="-22.948025"
-         y="-23.14596">plupweb</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';word-spacing:0px;stroke-width:0.264583"
@@ -180,7 +54,7 @@
          y="14.575864" /></text>
     <g
        id="g90945"
-       transform="translate(-20.610327,-7.9447368)">
+       transform="translate(-20.541488,-5.1845634)">
       <text
          xml:space="preserve"
          style="font-size:10.5833px;line-height:1.25;font-family:Poppins;-inkscape-font-specification:'Poppins, Normal';word-spacing:0px;stroke-width:0.264583"
