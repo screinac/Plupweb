@@ -32,7 +32,6 @@ html {
 
 body {
   font-family: 'Poppins';
-  font-size: clamp(1rem, 6vw, 1rem);
 }
 
 a {
@@ -134,8 +133,8 @@ header {
 header .container {
   padding: 0;
   margin: 0 2em;
-
   position: relative;
+  max-width: 1370px;
 }
 
 .nav-bar {
@@ -169,12 +168,8 @@ header .container {
 
 .menu-btn {
   width: 2.2em;
+  cursor: pointer;
 }
-
-/* .nav-list {
-  display: flex;
-  gap: 2em;
-} */
 
 /* hero section  */
 .hero {
@@ -442,6 +437,39 @@ footer {
   .body {
     font-size: 1.2rem;
   }
+
+  /* navbar section  */
+  header {
+    height: unset;
+  }
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 2em;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .nav-menu {
+    display: block !important;
+    width: unset;
+    position: unset;
+    border: none;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+  .nav-item {
+    margin: 0;
+  }
+
   /* hero section  */
   .hero .container {
     display: grid;
@@ -535,6 +563,7 @@ footer {
   .body {
     font-size: 1.2em;
   }
+
   /* hero section */
   .hero-title {
     font-size: 4em;
