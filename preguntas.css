@@ -119,6 +119,11 @@ header .container {
   margin-bottom: 0;
 }
 
+.nav-link {
+  display: block;
+  padding: 0.6em 0;
+}
+
 .logo {
   width: 8em;
 }
@@ -231,6 +236,9 @@ footer {
   }
   .nav-item {
     margin: 0;
+  }
+  .nav-link {
+    padding: 0;
   }
   /* inciar section  */
   .iniciar-cols {
