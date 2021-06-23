@@ -446,10 +446,6 @@ footer {
 }
 
 @media only screen and (min-width: 700px) {
-  .body {
-    font-size: 1.2rem;
-  }
-
   /* navbar section  */
   header {
     height: unset;
@@ -575,10 +571,6 @@ footer {
 }
 
 @media only screen and (min-width: 1265px) {
-  .body {
-    font-size: 1.2rem;
-  }
-
   /* hero section */
   .hero-title {
     font-size: 4em;
