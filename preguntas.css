@@ -62,6 +62,7 @@ p {
   text-align: left;
   margin: 1em 0;
   line-height: 180%;
+  font-size: 1rem;
 }
 
 h2 {
@@ -112,14 +113,14 @@ header .container {
   position: absolute;
   background: var(--primary-light);
   width: 100%;
-  top: 2.8em;
+  top: 3.5em;
   padding: 1em;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
 .nav-item {
-  margin-bottom: 1em;
+  margin-bottom: 0.4em;
 }
 
 .nav-item:nth-child(4) {

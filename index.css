@@ -46,7 +46,7 @@ ul {
 
 h1,
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-transform: capitalize;
   color: var(--primary-black);
   text-align: center;
@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 p {
@@ -63,12 +63,13 @@ p {
   text-align: left;
   margin: 1em 0;
   line-height: 180%;
+  font-size: 1rem;
 }
 
 h2 {
   color: var(--primary-black);
   text-align: center;
-  padding-top: 0em;
+  padding-top: 0;
 }
 
 .container {
@@ -191,7 +192,7 @@ header .container {
 }
 
 .hero-title {
-  font-size: 2.9em;
+  font-size: 2.9rem;
   text-transform: capitalize;
   margin: 0 0 0.3em 0;
   text-align: left;
@@ -217,7 +218,7 @@ header .container {
 .card-title {
   margin-top: 1.5em;
   padding: 0;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .card-description {
@@ -256,7 +257,7 @@ header .container {
 }
 
 .feature-title {
-  font-size: 2.7em;
+  font-size: 2.7rem;
   text-transform: capitalize;
   margin: 0 0 0.3em 0;
   text-align: left;
@@ -329,7 +330,7 @@ textarea {
   border-radius: 0.2em;
   border: 1px solid #acacac;
   color: #1b1820;
-  font-size: 1em;
+  font-size: 1rem;
   font-family: 'Poppins';
 }
 
@@ -405,7 +406,7 @@ textarea:focus {
 
 .cta {
   margin-top: 0.3em;
-  font-size: 1em;
+  font-size: 1rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -575,7 +576,7 @@ footer {
 
 @media only screen and (min-width: 1265px) {
   .body {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 
   /* hero section */
