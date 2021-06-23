@@ -32,7 +32,7 @@ html {
 
 body {
   font-family: 'Poppins';
-  font-size: 8px;
+  font-size: clamp(16px, 1vw, 18px);
 }
 
 a {
@@ -63,7 +63,7 @@ p {
   text-align: left;
   margin: 1em 0;
   line-height: 180%;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 
 h2 {
