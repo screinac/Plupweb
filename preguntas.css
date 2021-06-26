@@ -121,6 +121,7 @@ header .container {
   padding: 1em;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
 .nav-item {
@@ -239,7 +240,8 @@ footer {
     display: block !important;
     width: unset;
     position: unset;
-    border: none;
+    border: 0;
+    box-shadow: none;
   }
   .nav-list {
     display: flex;
