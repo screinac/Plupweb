@@ -46,12 +46,16 @@ ul {
 
 h1,
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.4em;
   text-transform: capitalize;
   color: var(--primary-black);
   text-align: center;
   margin: 0 auto 0.7em auto;
   padding: 0;
+}
+
+h2 {
+  margin-top: 1em;
 }
 
 h3 {
@@ -193,7 +197,7 @@ header .container {
 }
 
 .hero-title {
-  font-size: 2.9rem;
+  font-size: 2.7rem;
   text-transform: capitalize;
   margin: 0 0 0.3em 0;
   text-align: left;
@@ -258,7 +262,7 @@ header .container {
 }
 
 .feature-title {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   text-transform: capitalize;
   margin: 0 0 0.3em 0;
   text-align: left;
@@ -624,7 +628,7 @@ footer {
 @media only screen and (min-width: 1265px) {
   /* hero section */
   .hero-title {
-    font-size: 4em;
+    font-size: 3.5em;
   }
   .hero-img {
     padding: 6em;
