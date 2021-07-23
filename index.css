@@ -13,6 +13,7 @@
   --secondary-light: rgb(255, 239, 239);
   --primary-black: #151515;
   --secondary-black: #282828;
+  --tertiary-black: #505050;
   --primary-color: #f36b1c;
   --secondary-color: #f8d605;
   --clr-blue-500: #042c71;
@@ -276,6 +277,58 @@ header .container {
   margin-bottom: 2em;
   text-align: left;
   max-width: 500px;
+}
+
+/* pricing section  */
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.09);
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+.pricing-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing-card-img {
+  width: clamp(50px, 1vw, 200px);
+}
+.pricing-card-title {
+  font-size: clamp(1.8rem, 0.1vw, 2rem);
+  font-weight: normal;
+}
+.pricing-card-list {
+  color: var(--secondary-black);
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.pricing-card-item {
+  margin-top: 0.3em;
+}
+
+.pricing-card-price {
+  margin-top: 1em;
+}
+
+.pricing-card-old-price {
+  color: var(--tertiary-black);
+  text-decoration-line: line-through;
+  font-size: clamp(0.85rem, 0.1vw, 1rem);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing-card-new-price {
+  font-size: clamp(1.15rem, 0.1vw, 1rem);
+  margin: 0 auto;
+}
+
+.pricing-card-btn {
+  margin: 0.3em auto 0.2em auto;
 }
 
 /* contact section  */
