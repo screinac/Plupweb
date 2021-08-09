@@ -348,6 +348,26 @@ header .container {
   margin: 0.3em auto 0.2em auto;
 }
 
+
+.pricing-card.pricing-logo{
+  margin-top: 2em;
+  max-width: 600px;
+}
+
+.pricing-card.pricing-logo .pricing-card-p{
+  margin-bottom: 0;
+}
+
+.pricing-otros {
+  background: var(--primary-color);
+  margin-top: 1em;
+}
+.pricing-otros-p span{
+  font-weight: bold;
+}
+
+
+
 /* contact section  */
 .underline {
   text-decoration: underline;
