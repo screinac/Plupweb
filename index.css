@@ -149,6 +149,13 @@ header .container {
   max-width: 1370px;
 }
 
+.fixed-header {
+  position: fixed;
+  background: var(--primary-light);
+  width: 100%;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
 .nav-bar {
   display: flex;
   align-items: center;
@@ -348,13 +355,12 @@ header .container {
   margin: 0.3em auto 0.2em auto;
 }
 
-
-.pricing-card.pricing-logo{
+.pricing-card.pricing-logo {
   margin-top: 2em;
   max-width: 600px;
 }
 
-.pricing-card.pricing-logo .pricing-card-p{
+.pricing-card.pricing-logo .pricing-card-p {
   margin-bottom: 0;
 }
 
@@ -362,11 +368,9 @@ header .container {
   background: var(--primary-color);
   margin-top: 1em;
 }
-.pricing-otros-p span{
+.pricing-otros-p span {
   font-weight: bold;
 }
-
-
 
 /* contact section  */
 .underline {
@@ -563,6 +567,8 @@ footer {
   /* navbar section  */
   header {
     height: unset;
+    padding-top: 0.4em;
+    padding-bottom: 0.3em;
   }
   header .container {
     display: flex;
@@ -571,6 +577,11 @@ footer {
     margin: 0 auto;
     padding: 0 2em;
   }
+
+  .fixed-header {
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.12);
+  }
+
   .nav-bar {
     display: block;
   }
